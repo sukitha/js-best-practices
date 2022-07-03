@@ -14,9 +14,9 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install dependencies
-        run: npm install --global nyc
+        run: yarn
       - name: Test and coverage
-        run: nyc report --reporter=lcov --reporter=text-lcov #yarn jest --coverage
+        run: yarn nyc report --reporter=lcov --reporter=text-lcov #yarn jest --coverage
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
