@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest --vorbose ./src/*js"
   },
   "devDependencies": {
     "jest": "^28.1.2"
