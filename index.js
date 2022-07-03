@@ -1,6 +1,7 @@
 'use strict';
-let a = 1.0;
-let b = '1'
+
+const a = 1.0;
+const b = '1'
 const c = 1
 
 console.log(typeof a);
@@ -14,4 +15,5 @@ console.log(a === c);
 console.log(b === a);
 
 a.print();
+
 
