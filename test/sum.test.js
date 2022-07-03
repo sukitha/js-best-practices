@@ -1,5 +1,9 @@
 const sum = require('../src/sum');
+const expect = require('chai').expect;
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+describe("Array", () => {
+  describe("#index", () => {
+    it("should return -1 if number is not present", () =>
+    expect(sum(1, 2)).to.equal(3));
+  });
 });

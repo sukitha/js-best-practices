@@ -3,6 +3,9 @@
     "test": "jest --vorbose ./src/*js"
   },
   "devDependencies": {
-    "jest": "^28.1.2"
+    "chai": "^4.3.6",
+    "jest": "^28.1.2",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
   }
 }
