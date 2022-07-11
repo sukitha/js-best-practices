@@ -1,0 +1,1 @@
+module.exports = (...args) => args.map(item => item * 2);
